@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Activity Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!--card for activity-->
+    <div id="activity-card" class="card">
+        <div class="container"></div>
+        <h1 id="card-title" class="title">Activity Finder</h1>
+        <img class="logo" src="assets/activity-logo.png" />
+        <h1><p id="activity-description"></p></h1>
+
+        <p><span id="favorite">Click the activity to add as a favorite!</span>
+            <span id="favorite-button">♡</span></p>
+        
+        <p id="if-bored">If you're bored, click the button to get an activity!</p>
+        <form id="activity-search">
+            <label for="activity-type">Activity Type:</label>
+            <select id="activity-type" name="activity-type">
+                <option value="random">Random</option>
+                <option value="busywork">Busywork</option>
+                <option value="cooking">Cooking</option>
+                <option value="charity">Charity</option>
+                <option value="diy">DIY</option>
+                <option value="education">Education</option>
+                <option value="music">Music</option>
+                <option value="recreational">Recreational</option>
+                <option value="relaxation">Relaxation</option>
+                <option value="social">Social</option>
+            </select>
+            <button type="submit">Find an activity!</button>
+        </form>
+    </div>
+
+
+<!--card for favorited activities and comments-->
+<div id="favorite-activities" class="card">
+    <div>
+        <ul class="favorite-activities-list"><h3>Favorite Activities:</h3>
+        </ul>
+    </div>
+</div>
+    <script src="index.js"></script>
+</body>
+
+</html>

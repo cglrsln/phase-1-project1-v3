@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-card {
+  width: 300px;
+  border: 1px solid #00000020;
+  border-radius: 2px;
+  text-align: left;
+  background-color: white;
+}
+
+.image {
+  width: 300px;
+  /* border: 1px solid black; */
+}
+
+.title {
+  text-align: left;
+  padding: 15px 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #000000dd;
+}
+
+.likes-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.likes {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.like-button {
+  color: rgb(255, 0, 0);
+  font-size: 1.5rem;
+  border: none;
+  background: none;
+  transition: color 300ms;
+  cursor: pointer;
+}
+
+.like-button:hover {
+  color: rgb(241, 71, 19);
+}
+
+.like-button:active {
+  color: rgb(253, 159, 124);
+}
+
+.like-button:focus {
+  outline: none;
+}
+
+.comments {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 10px;
+  font-size: 0.85rem;
+}
+
+.comments li {
+  margin: 2px 0;
+  letter-spacing: 0.2px;
+}
+
+.comment-form {
+  width: 100%;
+  border-top: 1px solid #00000020;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.comment-input {
+  width: 83%;
+  border: none;
+  font-size: 0.8rem;
+}
+
+.comment-input:focus {
+  outline: none;
+}
+
+.comment-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 10px 70px;
+  
+}
+
+
+.comment-button:hover {
+  color: rgb(37, 68, 245);
+}
+
+.comment-button:active {
+  color: rgb(127, 146, 250);
+}
+
+.comment-button:focus {
+  outline: none;
+}
+
+
+
+.create-task-form.submit {
+  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+
+
+

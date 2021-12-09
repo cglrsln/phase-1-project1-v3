@@ -1,0 +1,124 @@
+.card {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: auto;
+    width: 50%;
+    border: 3px solid;
+    padding: 10px;
+}
+
+
+.container {
+    padding: 2px 2px;
+    margin-left: 700px;
+}
+
+#favorite-button {
+    cursor: pointer
+}
+
+.favorited {
+      color: red
+}
+  
+.favorite-activities-list{
+  text-align:center;
+}
+
+ul.favorite-activities-list {
+  list-style-type: none;
+}
+
+ul li {
+  margin-top: 15px;
+
+}
+ul li span {
+  background: rgb(226, 244, 253) ;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(0, 98, 151);
+  font-family: sans-serif;
+}
+
+ul li span button {
+  border: none;
+  margin-left: 10px;
+  background: none;
+  font-weight: bold;    
+  color: red;
+  cursor: pointer
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+
+
+
+
+#if-bored > img {
+  width: 70%;
+}
+
+#activity-card > img {
+  width: 100%;  
+  max-width: 200px;
+}
+
+body {
+  background: url("https://cdn.edu.buncee.com/assets/89f2a8d27648350ff75964c9f3533866/backgrounds-professional-021920.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+#activity-card, #favorite-activities {
+  text-align: center;
+  background-color: white;
+}
+
+#activity-description {
+  color:#046396;
+  font-family: sans-serif;
+  cursor: pointer
+}
+
+#if-bored {
+  color:#084200;
+  font-family: sans-serif;
+}
+
+
+#activity-search > button {
+
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer
+}
+
+
+#activity-search > button:hover {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+
+#card-title{
+  color: #046396;
+  font-size: 50px;
+}
+

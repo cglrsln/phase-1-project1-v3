@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Project 1: Activity Finder v1.0</title>
+</head>
+<body>
+<!-- logo -->
+<img class="logo" src="assets/activity-logo.png" />
+
+<!-- image card -->
+<div class="image-container">
+  <div class="image-card">
+    <h2 id="card-title" class="title">Activity finder v1.0</h2>
+    <!-- <img id="card-image" class="image" src="./assets/image-placeholder.jpg" alt="Title of image goes here too" /> -->
+    <div class="likes-section">
+      <span id="like-count" class="likes">0 likes</span>
+      <button id="like-button" class="like-button">♥</button>
+    </div>
+    <ul id="commentsList" class="comments">
+      <li>If you are bored, click the button to get a random activity</li>
+    </ul>
+
+    <button class="comment-button" type="submit">Find an activity!</button>
+    
+    <form id="create-task-form" action="" method="POST">
+        <label for="new-task-description">Write your comment:</label>
+        <input type="text" id="newTaskDescription" name="new-task-description" placeholder="description">
+        <input type="submit" value="Submit">
+      </form>
+
+
+      <form name="myform" action="handle-data.php">
+        Search: <input type='text' name='query' />
+        <a href="javascript: submitform()">Submit</a>
+        </form>
+        <script type="text/javascript">
+        function submitform()
+        {
+          document.myform.submit();
+        }
+        </script>
+
+
+
+      <div id="list">
+        <h2></h2>
+        <ul id="tasks">
+        </ul>
+      </div>
+
+
+
+
+    
+  </div>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
